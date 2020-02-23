@@ -1,0 +1,134 @@
+
+  
+  .split{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-image: url(sujal.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+    
+  }
+  
+  .right {
+    right: 0;
+    background-color: white;
+  }
+
+  ul{
+      list-style-type: none;
+      
+  }
+
+ ul li{
+      display: inline-block;
+      font-family: century gothic; 
+      font-size: 4mm;
+      padding: 10px;
+      margin-top: 2px;
+     
+  }
+
+  ul li a{
+    color:black;
+    text-decoration: none;
+    
+  }
+
+  li:hover{
+      border-bottom: 2px solid rgb(31, 226, 226);
+    
+  }
+
+  .bank{
+    font-size: 8mm;
+    padding-left: 80px;
+    font-family: century gothic; 
+    color: rgb(94, 80, 80);
+    
+  }
+
+  p{
+    font-family: century gothic; 
+    margin-left: 80px; 
+    font-size: 3mm;   
+  }
+
+  h5{
+    font-family: sans-serif; 
+    padding-left: 80px;
+    letter-spacing: 0;
+    color: rgb(109, 103, 103);
+  }
+
+  input{
+    padding-left: 80px;
+    border-bottom: 1px;
+  }
+
+   h1{
+     font-family:century gothic;
+     margin-left: 40px;
+     font-size: 6mm;
+     margin-top: 1px;
+   }
+
+   .form{
+     
+     overflow: hidden;
+     padding-left: 78;
+   }
+
+   .form input{
+     border: none;
+     border-bottom: 1px solid rgb(180, 170, 180);
+     overflow: hidden;
+     padding-left: 0;
+     padding-bottom: 6;
+   }
+
+  ::placeholder{
+    color: rgb(180, 170, 180);
+  }
+
+  .btn button{
+    background-color: rgb(31, 226, 226);
+    border: none;
+    color: white;
+    font-size: 5mm;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 10px;
+    text-transform: uppercase;
+  }
+
+
+  .code {
+    
+    padding-left: 20px;
+    color: rgb(185, 174, 174);
+  }
+
+  .text{
+    margin: 50;
+    color: rgb(131, 124, 119);
+  }
+
+  .text a{
+    color: rgb(131, 124, 119);
+  }
+
+  .home{
+    border-bottom: 2px solid ;
+    color:rgb(31, 226, 226);
+  }
